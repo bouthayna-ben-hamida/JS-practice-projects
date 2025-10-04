@@ -1,0 +1,1 @@
+this is a simple to do list where i try to practice the fundamentals of JS.
