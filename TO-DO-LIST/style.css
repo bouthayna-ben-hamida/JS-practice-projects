@@ -1,0 +1,65 @@
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #E1F0C4;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-name {
+   color: #00241B;
+}
+
+.add-button {
+    border-radius: 20px;
+    padding: 8px;
+    margin: 5px;
+    background-color: transparent;
+    border: 2px solid #00241B;
+    cursor: pointer;
+    font-weight: 600;
+    color: #00241B;
+
+}
+
+.add-button:hover {
+    background-color: #00241B;
+    color: #E1F0C4;
+}
+
+.input-container {
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid #9097c0;
+    outline: none;
+    transition: border-color 0.2s ease;
+    color: #00241B;
+}
+
+.input-container:focus {
+    border: 2px solid #00241B;
+}
+
+.to-do-list-title {
+    font-weight: 700;
+    font-size: large;
+    color: #00241B;
+
+}
+
+.view-items-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border: 2px solid #00241B;
+    border-radius: 15px;
+    width: 270px;
+    height: 400px;
+}
